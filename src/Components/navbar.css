@@ -1,0 +1,24 @@
+
+.text-purple-500 {
+  --tw-text-opacity: 2;
+  color: rgb(215 20 195 / var(--tw-text-opacity));
+}
+
+.anta {
+  font-family: Orbitron, poppins !important;
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 0.5px;
+  display: block;
+}
+.hover-tran {
+  transition: color 0.5s ease, transform 0.2s ease; /* Add transition effect */
+}
+
+.hover-tran {
+  color: hsl(197, 91%, 38%);
+}
+
+.anta1 {
+  font-family: Orbitron !important;
+}
