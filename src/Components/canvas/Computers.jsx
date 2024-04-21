@@ -7,10 +7,14 @@ import CanvasLoader from "../Loader";
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./earth/scene.gltf");
 
+  const mobilePosition = [2, -5 - 4, -2.2];
+  const desktopPosition = [2, -9.1 - 2, -1.5];
+
+  const position = isMobile ? mobilePosition : desktopPosition;
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.25} groundColor='black' />
+      <hemisphereLight intensity={0.25} groundColor="black" />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.15}
@@ -23,9 +27,8 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.7 : 0.85}
-        position={isMobile ? [2, -5 -4, -2.2] : [2, -9.1 -2, -1.5]}
+        position={isMobile ? [2, -5 - 4, -2.2] : [2, -9.1 - 2, -1.5]}
         rotation={[-0.01, -9.45, -6.29]}
-    
       />
     </mesh>
   );
@@ -57,17 +60,17 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop='demand'
+      frameloop="demand"
       shadows
       dpr={[1, 2]}
-      camera={{ position: [30,-25, -15], fov: 45 }}
+      camera={{ position: [30, -25, -15], fov: 45 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-        autoRotate
-         enableZoom={false}
-         maxPolarAngle={Math.PI / 2}
+          autoRotate
+          enableZoom={false}
+          maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
         <Computers isMobile={isMobile} />

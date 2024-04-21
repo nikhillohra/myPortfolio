@@ -23,6 +23,8 @@ import {
   movieapp,
   threejs,
   oracle,
+  nikeweb,
+  weather,
 } from "../assets";
 
 export const navLinks = [
@@ -212,6 +214,31 @@ const projects = [
     image: carrent,
     source_code_link: "https://github.com/nikhillohra/real-estate-webite",
   },
+
+  {
+    name: "Nike Clone 2024",
+    description:
+      " React-based Nike Clone 2024! 🌟 Powered by Tailwind CSS & Video-React, this immersive experience brings Nike to your screen. Explore products, enjoy seamless video ads, and dive into the future of online shopping.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindCss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nikeweb,
+    source_code_link: "https://github.com/nikhillohra/Nike",
+  },
+
+
+  
   {
     name: "Bank Management System",
     description:
@@ -275,6 +302,30 @@ const projects = [
     image: movieapp,
     source_code_link: "https://github.com/nikhillohra/movie-app",
   },
+
+  {
+    name: "Weather App",
+    description:
+      " The Weather App is a simple web application built using React that allows users to check the current weather conditions of any city worldwide. Link to the Website: https://globeeweather.netlify.app/ ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restfulApi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: weather,
+    source_code_link: "https://github.com/nikhillohra/weather-app",
+  },
+
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

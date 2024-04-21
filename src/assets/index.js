@@ -28,8 +28,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import movieapp from "./movieapp.png";
+import nikeweb from "./nikeweb.png"
+import weather from "./weather.png"
 
 export {
+  nikeweb,
+  weather,
   spline,
   oracle,
   backend,
