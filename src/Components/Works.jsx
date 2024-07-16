@@ -7,14 +7,7 @@ import { projects } from "../constants";
 import SectionWrapper from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({
-  index,
-  name,
-  description,
-  tags,
-  image,
-  source_code_link,
-}) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -29,9 +22,8 @@ const ProjectCard = ({
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full md:w-full object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-2xl"
           />
-
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -47,13 +39,10 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-5">
-          <h3 style={{ fontWeight: "700" }} className="text-white text-[24px]">
+          <h3 className="text-white text-[24px] font-bold">
             {name}
           </h3>
-          <p
-            style={{ fontFamily: "Poppins" }}
-            className="mt-2 text-secondary text-[14px]"
-          >
+          <p className="mt-2 text-secondary text-[14px] font-poppins">
             {description}
           </p>
         </div>
@@ -77,16 +66,10 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p
-          style={{ fontSize: "25px", fontWeight: "200" }}
-          className={`${styles.sectionSubText} text-center`}
-        >
+        <p className={`${styles.sectionSubText} text-center text-[25px] font-light`}>
           My Work towards Web & Software Development
         </p>
-        <h2
-          style={{ fontSize: "40px", fontWeight: "600" }}
-          className={`${styles.sectionHeadText} text-center`}
-        >
+        <h2 className={`${styles.sectionHeadText} text-center text-[40px] font-semibold`}>
           Projects
         </h2>
       </motion.div>
@@ -94,14 +77,9 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          style={{ fontFamily: "Poppins" }}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] font-poppins"
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
         </motion.p>
       </div>
 
