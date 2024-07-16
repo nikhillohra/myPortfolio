@@ -1,11 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto overflow-x-hidden flex flex-col justify-center items-center ${styles.padding}`}>
+    <section
+      className={`relative w-full h-screen mx-auto overflow-x-hidden flex flex-col justify-center items-center ${styles.padding}`}
+    >
       <div
         className={`${styles.padding} absolute inset-0 top-[190px] max-w-8xl mx-auto flex flex-row items-start gap-4 sm:mx-auto`}
       >
@@ -29,11 +30,10 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
-
-      <div className="absolute xs:bottom-0  md:bottom-0 md:shrink-0 bottom-10 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-[5rem] md:bottom-0 md:shrink-0 bottom-36 w-full flex flex-col justify-center items-center">
+        <div className="block text-l ">Click the Button Below</div>
         <a href="#about">
-          <div className="w-[30px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-1.5 mt-6">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-1.5 mt-6">
             <motion.div
               animate={{
                 y: [0, 24, 0],

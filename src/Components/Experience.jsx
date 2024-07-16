@@ -18,16 +18,17 @@ const ExperienceCard = ({ experience }) => {
       contentStyle={{
         background: "#1d1836",
         color: "#fff",
+      
       }}
-      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+      contentArrowStyle={{ borderRight: "10px solid  #232631" }}
       date={experience.date}
-      iconStyle={{ background: experience.iconBg }}
+      iconStyle={{ background: experience.iconBg,  width: '50px', height:'50px', margin:'5px' }}
       icon={
-        <div className="flex justify-center items-center w-full h-full">
+        <div className="flex justify-center items-center w-full h-full ">
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className="w-[60%] h-[60%] object-contain"
+            className="w-[100%] h-[100%] object-contain p-0.5"
           />
         </div>
       }
@@ -66,14 +67,13 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p
-          style={{ fontSize: "25px", fontWeight: "200" }}
           className={`${styles.sectionSubText} text-center`}
         >
           What I have earned so far
         </p>
         <h2
-          style={{ fontSize: "40px", fontWeight: "600" }}
-          className={`${styles.sectionHeadText} text-center`}
+      
+          className={`${styles.sectionHeadText} text-center `}
         >
           ACHIEVEMENTS & CERTIFICATIONS
         </h2>
