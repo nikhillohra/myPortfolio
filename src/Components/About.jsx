@@ -66,7 +66,7 @@ const About = () => {
         challenges and drive success in any development project.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 overflow-hidden p-2">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

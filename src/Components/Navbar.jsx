@@ -36,7 +36,7 @@ const Navbar = () => {
             }}
           >
             <div className="flex items-center gap-2">
-              <img className="w-32 h-32" src="./images/favicon.png" alt="logo" />
+              <img className="w-32 h-32" src="./images/favicon.svg" alt="logo" />
               <div className="ml-4">
                 <p className="mt-3.5 hover-tran hover-color hover:text-[#52e5ff] cursor-pointer text-purple-500 anta flex items-center flex-col">
                   Nikhil Lohra &nbsp;
@@ -62,7 +62,7 @@ const Navbar = () => {
 
           <div className="sm:hidden flex flex-3 justify-end items-center menu-toggle">
             <img
-              src={toggle ? "./images/close1.png" : "./images/menu2.png"}
+              src={toggle ? "./images/close1.svg" : "./images/menu2.svg"}
               alt="menu"
               className="w-[30px] h-30 object-contain cursor-pointer z-30"
               onClick={() => setToggle(!toggle)}

@@ -16,8 +16,8 @@ const Hero = () => {
           <div className="w-1 h-40 sm:h-80 violet-gradient"></div>
         </div>
 
-        <div className="flex flex-col ml-5">
-          <h1 className={`${styles.heroHeadText} `}>
+        <div className="flex flex-col ml-5 ">
+          <h1 className={`${styles.heroHeadText} overflow-hidden `}>
             Hi, I'm
             <span className="text-[#915eff] ml-4">Nikhil</span>
           </h1>
