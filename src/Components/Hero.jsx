@@ -22,15 +22,16 @@ const Hero = () => {
             <span className="text-[#915eff] ml-4">Nikhil</span>
           </h1>
 
-          <p className={`${styles.heroSubText} mt-10 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-10 mb-5 text-white-100`}>
             I develop Software & Web Applications with 3D visuals{" "}
             <br className="sm:block hidden" /> to solve modern real-life
             problems.
           </p>
+          <br/>
         </div>
       </div>
 
-      <div className="absolute xs:bottom-[5rem] md:bottom-0 md:shrink-0 bottom-36 w-full flex flex-col justify-center items-center">
+      <div className="absolute xs:bottom-[3rem] md:bottom-0 md:shrink-0 bottom-10 w-full flex flex-col justify-center items-center mt-10">
         <div className="block text-l ">Click the Button Below</div>
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-1.5 mt-6">
