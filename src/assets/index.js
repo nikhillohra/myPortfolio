@@ -1,14 +1,16 @@
+// Importing general assets
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 
+// Importing technology icons
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import mySql from "./tech/mySql.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
+import htmlIcon from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -17,34 +19,43 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import gsapIcon from "./tech/gsap.webp";
+import spline from "./tech/spline.png";
+import nextJsIcon from "./tech/nextjs.png"
 
+
+// Importing company logos
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import oracle from "./company/oracle.png";
-import spline from "./tech/spline.png";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+
+// Importing project images
+import realEstate from "./realEstate.png";
+import og from "./og.png"
+import bankMS from "./bankMS.png";
 import tripguide from "./tripguide.png";
 import movieapp from "./movieapp.png";
-import nikeweb from "./nikeweb.png"
-import weather from "./weather.png"
+import nikeweb from "./nikeweb.png";
+import weather from "./weather.png";
+import hackathon from "./hackathon.png"
+import fizziup from "./fizziup.png"
 
+// Exporting all assets
 export {
-  nikeweb,
-  weather,
-  spline,
-  oracle,
+  // General assets
   backend,
   creator,
   mobile,
   web,
   github,
+
+  // Technology icons
   css,
-  docker,
+  mySql,
   figma,
   git,
-  html,
+  htmlIcon,
   javascript,
   mongodb,
   nodejs,
@@ -53,12 +64,25 @@ export {
   tailwind,
   typescript,
   threejs,
+  gsapIcon,
+  spline,
+  nextJsIcon,
+  
+
+  // Company logos
   meta,
   shopify,
   starbucks,
- 
-  carrent,
-  jobit,
+  oracle,
+
+  // Project images
+  realEstate,
+  hackathon,
+  og,
+  bankMS,
   tripguide,
   movieapp,
+  nikeweb,
+  weather,
+  fizziup,
 };

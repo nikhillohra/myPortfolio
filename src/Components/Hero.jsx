@@ -23,11 +23,11 @@ const Hero = () => {
           </h1>
 
           <p className={`${styles.heroSubText} mt-10 mb-5 text-white-100`}>
-            I develop Software & Web Applications with 3D visuals{" "}
-            <br className="sm:block hidden" /> to solve modern real-life
-            problems.
+            I specialize in developing software and web applications with 3D
+            visuals {" "}
+            <br className="sm:block hidden" /> to address modern real-life challenges.
           </p>
-          <br/>
+          <br />
         </div>
       </div>
 

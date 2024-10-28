@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { useState, Suspense } from "react"; // Import Suspense here
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
@@ -7,11 +7,27 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
-
 import CanvasLoader from "../Loader";
+import { creator } from "../../assets";
+import * as THREE from 'three'; // Import THREE to use RepeatWrapping
 
-const Ball = (props) => {
-  const [decal] = useTexture([props.imgUrl]);
+const Ball = ({ imgUrl }) => {
+  // State for handling errors
+  const [isError, setIsError] = useState(false);
+
+  // Load the texture
+  const [decal] = useTexture([imgUrl], (texture) => {
+    texture.wrapS = texture.wrapT = THREE.RepeatWrapping; // Optional for repeating textures
+  });
+
+  // Error handling for the texture loading
+  const handleTextureError = () => {
+    console.warn(`Failed to load texture from: ${imgUrl}`);
+    setIsError(true);
+  };
+
+  // Set default image in case of an error
+  const defaultImg = creator; // Ensure you have a default image in your assets
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
@@ -29,7 +45,7 @@ const Ball = (props) => {
           position={[0, 0, 1]}
           rotation={[2 * Math.PI, 0, 6.25]}
           scale={1}
-          map={decal}
+          map={isError ? defaultImg : decal} // Use default image if there's an error
           flatShading
         />
       </mesh>
@@ -48,7 +64,6 @@ const BallCanvas = ({ icon }) => {
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />
       </Suspense>
-
       <Preload all />
     </Canvas>
   );

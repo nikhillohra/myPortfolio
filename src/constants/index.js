@@ -1,10 +1,10 @@
+// Asset Imports
 import {
   mobile,
   backend,
   creator,
   web,
   javascript,
-  html,
   css,
   reactjs,
   tailwind,
@@ -12,131 +12,87 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   meta,
   starbucks,
   spline,
   shopify,
-  carrent,
-  jobit,
   tripguide,
   movieapp,
   threejs,
   oracle,
   nikeweb,
   weather,
+  gsapIcon,
+  typescript,
+  nextJsIcon,
+  github,
+  mySql,
+  redux,
+  realEstate,
+  og,
+  bankMS,
+  hackathon,
+  fizziup,
+  htmlIcon,
 } from "../assets";
 
+// Navigation Links
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  { id: "about", title: "About" },
+  { id: "work", title: "Work" },
+  { id: "contact", title: "Contact" },
 ];
 
+// Services Offered
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Java Developer",
-    icon: creator,
-  },
+  { title: "Web Developer", icon: web },
+  { title: "React Native Developer", icon: mobile },
+  { title: "Backend Developer", icon: backend },
+  { title: "Java Developer", icon: creator },
 ];
 
+// Technologies Used
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "Java",
-    icon: oracle,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name: "spline",
-    icon: spline,
-  },
+  {name: "HTML", icon: htmlIcon},
+  {name: "CSS", icon: css},
+  {name: "JavaScript", icon: javascript},
+  {name: "TypeScript", icon: typescript},
+  { name: "Node JS", icon: nodejs },
+  { name: "React JS", icon: reactjs },
+  { name: "Next JS", icon: nextJsIcon },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "MongoDB", icon: mongodb },
+  { name: "Redux", icon: redux },
+  { name: "Git", icon: git },
+  { name: "GitHub", icon: github },
+  { name: "Java", icon: oracle },
+  { name: "MySQL", icon: mySql },
+  { name: "Three JS", icon: threejs },
+  { name: "Figma", icon: figma },
+  { name: "Spline", icon: spline },
+  { name: "GSAP", icon: gsapIcon },
+ 
 ];
 
+// Professional Experiences
 const experiences = [
   {
-    title: "7th Rank in IMO  ",
-    company_name: "(International Maths Olympiad)",
+    title: "7th Rank in IMO",
+    company_name: "International Maths Olympiad",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2015",
-    points: ["Participated in IMO and achieved a ranking of 7th place."],
+    points: ["Achieved 7th place in the International Maths Olympiad (IMO)."],
   },
   {
-    title: "Oracle Learning Explorer ",
+    title: "Oracle Learning Explorer",
     company_name: "Oracle",
     icon: oracle,
     iconBg: "#E6DEDD",
     date: "Jan 2023",
     points: [
-      "Developing and maintaining Java applications using Eclipse.",
-      "Gained proficiency in Object Oriented Programming (OOPs) concepts and expanded my knowledge by practicing various fundamental Java programs.",
+      "Developed and maintained Java applications using Eclipse.",
+      "Gained proficiency in Object-Oriented Programming (OOP) concepts.",
     ],
   },
   {
@@ -146,25 +102,25 @@ const experiences = [
     iconBg: "#383E56",
     date: "Sep 2023",
     points: [
-      "Developed strong communication, presentation, and soft skills.",
-      "Acquired expertise in resume writing, group discussion, and interview techniques.",
-      "Gained foundational knowledge in accounting, IT skills, and artificial intelligence overview.",
+      "Enhanced skills in communication, presentation, and team collaboration.",
+      "Gained foundational knowledge in accounting, IT, and AI.",
     ],
   },
   {
-    title: "Meta Front-End Developer ",
+    title: "Meta Front-End Developer",
     company_name: "Coursera",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Dec 2023 - Present",
     points: [
-      "Developing and maintaining web applications using HTML, CSS, JavaScript and other related technologies.",
-      "Using React in relation to Javascript libraries and frameworks.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web applications using HTML, CSS, and JavaScript.",
+      "Utilizing React to build dynamic, responsive interfaces.",
+      "Ensuring cross-browser compatibility and responsive design.",
     ],
   },
 ];
 
+// Client Testimonials
 const testimonials = [
   {
     testimonial:
@@ -192,140 +148,118 @@ const testimonials = [
   },
 ];
 
+// Projects Portfolio
 const projects = [
   {
-    name: "Real-Estate",
+    name: "Fizziup 3D Website",
     description:
-      " Dynamic and responsive Real-Estate Web Application using React.js, HTML, and CSS for optimal usability on desktop and mobile devices.",
+      "A dynamic 3D website built with TypeScript, GSAP, Three.js and Next.js utilizing (SSR).",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "swiper",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "Next.JS", color: "blue-text-gradient" },
+      { name: "Three.JS", color: "green-text-gradient" },
+      { name: "GSAP", color: "pink-text-gradient" },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/nikhillohra/real-estate-webite",
+    image: fizziup,
+    source_code_link: "https://github.com/nikhillohra/fizziup",
+  },
+  {
+    name: "Hackathon App",
+    description:
+      "A full-featured Hackathon App allowing users to manage hackathons with CRUD operations.",
+    tags: [
+      { name: "MERN", color: "blue-text-gradient" },
+      { name: "tailwindcss", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
+    ],
+    image: hackathon,
+    source_code_link: "https://github.com/nikhillohra/Hackathon",
+  },
+  {
+    name: "Organic Goods",
+    description:
+      "A commercial website showcasing sustainable products, built with React.js and styled with TailwindCSS. ",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwindcss", color: "green-text-gradient" },
+      { name: "emailjs", color: "pink-text-gradient" },
+    ],
+    image: og,
+    source_code_link: "https://github.com/nikhillohra/OrganicGoods",
   },
 
   {
+    name: "Real-Estate",
+    description:
+      "Dynamic, responsive Real-Estate Web Application built with React.js, optimized for desktop and mobile devices.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "swiper", color: "green-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
+    ],
+    image: realEstate,
+    source_code_link: "https://github.com/nikhillohra/real-estate-webite",
+  },
+  {
     name: "Nike Clone 2024",
     description:
-      " React-based Nike Clone 2024! 🌟 Powered by Tailwind CSS & Video-React, this immersive experience brings Nike to your screen. Explore products, enjoy seamless video ads, and dive into the future of online shopping.",
+      "React-based Nike Clone with Tailwind CSS & Video-React, an immersive experience for online shopping.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindCss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
+      { name: "tailwindCss", color: "pink-text-gradient" },
     ],
     image: nikeweb,
     source_code_link: "https://github.com/nikhillohra/Nike",
   },
-
-
-  
-  {
-    name: "Bank Management System",
-    description:
-      "Software system programmed to facilitate streamlined account management, record-keeping, and customer interaction",
-    tags: [
-      {
-        name: "java",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "java-swing",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/nikhillohra/BankManagementSystem",
-  },
-  // {
-  //   name: "Chatting Application",
-  //   description:
-  //     "Developed a Java-based Chat Application with a focus on real-time communication using socket programming, incorporating networking and cybersecurity principles for enhanced functionality and security.",
-  //   tags: [
-  //     {
-  //       name: "java",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "java-swing",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "networking-api)",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/nikhillohra/ChattingApplication",
-  // },
   {
     name: "Movie Application",
     description:
-      "Movie Hunt - This is a simple movie searching website where users can search for movies using keywords. The website utilizes the OMDb API to fetch movie data based on the user's search query..",
+      "Movie Hunt - A web app allowing users to search movies using keywords, powered by OMDb API.",
     tags: [
-      {
-        name: "javaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "javascript", color: "blue-text-gradient" },
+      { name: "react", color: "green-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
     ],
     image: movieapp,
     source_code_link: "https://github.com/nikhillohra/movie-app",
   },
-
   {
     name: "Weather App",
     description:
-      " The Weather App is a simple web application built using React that allows users to check the current weather conditions of any city worldwide. Link to the Website: https://globeeweather.netlify.app/ ",
+      "React-based Weather App to check real-time weather conditions of any city worldwide.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "restfulApi",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
+      { name: "restfulApi", color: "pink-text-gradient" },
     ],
     image: weather,
     source_code_link: "https://github.com/nikhillohra/weather-app",
   },
-
-
+  {
+    name: "Bank Management",
+    description:
+      "Software system to streamline account management, record-keeping, and customer interactions.",
+    tags: [
+      { name: "java", color: "blue-text-gradient" },
+      { name: "java-swing", color: "green-text-gradient" },
+      { name: "mysql", color: "pink-text-gradient" },
+    ],
+    image: bankMS,
+    source_code_link: "https://github.com/nikhillohra/BankManagementSystem",
+  },
+  {
+    name: "Chatting Application",
+    description:
+      "Java-based Chat Application for real-time communication, using socket programming and networking principles.",
+    tags: [
+      { name: "java", color: "blue-text-gradient" },
+      { name: "java-swing", color: "green-text-gradient" },
+      { name: "networking-api", color: "pink-text-gradient" },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/nikhillohra/ChattingApplication",
+  },
 ];
 
+// Exports
 export { services, technologies, experiences, testimonials, projects };

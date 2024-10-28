@@ -57,13 +57,17 @@ const About = () => {
         }}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        To summarise, I am a skilled software developer specializing in Java,
-        JavaScript, HTML, CSS and various frameworks with expertise in React,
-        Node.js, and database management systems. With a proven track record of
-        delivering high-quality software and web applications, I am committed to
-        continuous learning and innovation. My deep understanding of both
-        front-end and back-end technologies equips me to tackle diverse
-        challenges and drive success in any development project.
+        To summarize, I'm a versatile full-stack developer specializing in
+        creating cutting-edge, dynamically scalable web applications using the
+        MERN stack, React, TailwindCSS, and Next.js with server-side
+        rendering (SSR).
+        I specialize in building responsive, high-performance websites that come
+        alive with smooth animations from GSAP and interactive 3D experiences
+        using Three.js. My goal is to create engaging visuals and fluid
+        animations while ensuring fast, efficient rendering through SSR. Driven
+        by a commitment to clean code and innovative solutions, I strive to
+        deliver exceptional user experiences that push the boundaries of web
+        development.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 overflow-hidden p-2">
