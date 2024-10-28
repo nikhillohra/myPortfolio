@@ -4,8 +4,6 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  css,
   reactjs,
   tailwind,
   nodejs,
@@ -23,7 +21,6 @@ import {
   nikeweb,
   weather,
   gsapIcon,
-  typescript,
   nextJsIcon,
   github,
   mySql,
@@ -33,7 +30,7 @@ import {
   bankMS,
   hackathon,
   fizziup,
-  htmlIcon,
+
 } from "../assets";
 
 // Navigation Links
@@ -53,10 +50,6 @@ const services = [
 
 // Technologies Used
 const technologies = [
-  {name: "HTML", icon: htmlIcon},
-  {name: "CSS", icon: css},
-  {name: "JavaScript", icon: javascript},
-  {name: "TypeScript", icon: typescript},
   { name: "Node JS", icon: nodejs },
   { name: "React JS", icon: reactjs },
   { name: "Next JS", icon: nextJsIcon },

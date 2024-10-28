@@ -11,13 +11,13 @@ import mySql from "./tech/mySql.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import htmlIcon from "./tech/html.png";
-import javascript from "./tech/javascript.png";
+import javascriptIcon from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import typescriptIcon from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import gsapIcon from "./tech/gsap.webp";
 import spline from "./tech/spline.png";
@@ -56,13 +56,13 @@ export {
   figma,
   git,
   htmlIcon,
-  javascript,
+  javascriptIcon,
   mongodb,
   nodejs,
   reactjs,
   redux,
   tailwind,
-  typescript,
+  typescriptIcon,
   threejs,
   gsapIcon,
   spline,
