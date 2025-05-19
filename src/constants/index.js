@@ -30,6 +30,9 @@ import {
   bankMS,
   hackathon,
   fizziup,
+  trustco,
+  taskbuddy,
+
 
 } from "../assets";
 
@@ -42,10 +45,10 @@ export const navLinks = [
 
 // Services Offered
 const services = [
-  { title: "Web Developer", icon: web },
-  { title: "React Native Developer", icon: mobile },
+  { title: "MERN Stack Developer", icon: web },
+  { title: "React Developer", icon: mobile },
   { title: "Backend Developer", icon: backend },
-  { title: "Java Developer", icon: creator },
+  { title: "API Developer", icon: creator },
 ];
 
 // Technologies Used
@@ -156,6 +159,18 @@ const projects = [
     source_code_link: "https://github.com/nikhillohra/fizziup",
   },
   {
+    name: "TaskBuddy",
+    description:
+    "TaskBuddy is a modern task management web application designed to help users organize their daily tasks efficiently.",
+    tags: [
+      { name: "React.Js", color: "blue-text-gradient" },
+      { name: "Firebase", color: "green-text-gradient" },
+      { name: "TailwindCSS", color: "pink-text-gradient" },
+    ],
+    image: taskbuddy,
+    source_code_link: "https://github.com/nikhillohra/taskBuddy",
+  },
+  {
     name: "Hackathon App",
     description:
       "A full-featured Hackathon App allowing users to manage hackathons with CRUD operations.",
@@ -179,7 +194,18 @@ const projects = [
     image: og,
     source_code_link: "https://github.com/nikhillohra/OrganicGoods",
   },
-
+  {
+    name: "Nike Clone 2024",
+    description:
+      "React-based Nike Clone with Tailwind CSS & Video-React, an immersive experience for online shopping.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
+      { name: "tailwindCss", color: "pink-text-gradient" },
+    ],
+    image: nikeweb,
+    source_code_link: "https://github.com/nikhillohra/Nike",
+  },
   {
     name: "Real-Estate",
     description:
@@ -193,17 +219,19 @@ const projects = [
     source_code_link: "https://github.com/nikhillohra/real-estate-webite",
   },
   {
-    name: "Nike Clone 2024",
+    name: "TrustCo Solo",
     description:
-      "React-based Nike Clone with Tailwind CSS & Video-React, an immersive experience for online shopping.",
+      "This is a simple, functional frontend web application built with HTML, CSS, and Vanilla JavaScript.",
     tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "javascript", color: "green-text-gradient" },
-      { name: "tailwindCss", color: "pink-text-gradient" },
+      { name: "HTML", color: "blue-text-gradient" },
+      { name: "CSS", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
     ],
-    image: nikeweb,
-    source_code_link: "https://github.com/nikhillohra/Nike",
+    image: trustco,
+    source_code_link: "https://github.com/nikhillohra/trustco-solo",
   },
+  
+
   {
     name: "Movie Application",
     description:

@@ -40,6 +40,8 @@ import nikeweb from "./nikeweb.png";
 import weather from "./weather.png";
 import hackathon from "./hackathon.png"
 import fizziup from "./fizziup.png"
+import trustco from './trustco.png'
+import taskbuddy from './taskbuddy.svg'
 
 // Exporting all assets
 export {
@@ -85,4 +87,6 @@ export {
   nikeweb,
   weather,
   fizziup,
+  trustco,
+  taskbuddy,
 };

@@ -57,17 +57,16 @@ const About = () => {
         }}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        To summarize, I'm a versatile full-stack developer specializing in
-        creating cutting-edge, dynamically scalable web applications using the
-        MERN stack, React, TailwindCSS, and Next.js with server-side
-        rendering (SSR).
-        I specialize in building responsive, high-performance websites that come
-        alive with smooth animations from GSAP and interactive 3D experiences
-        using Three.js. My goal is to create engaging visuals and fluid
-        animations while ensuring fast, efficient rendering through SSR. Driven
-        by a commitment to clean code and innovative solutions, I strive to
-        deliver exceptional user experiences that push the boundaries of web
-        development.
+        I’m a full-stack developer crafting web experiences that aren’t just
+        fast — they’re alive. From high-performance apps built with the MERN
+        stack, React, and Next.js (SSR) to scalable solutions designed
+        for real impact, I blend performance with precision. My creative edge?
+        Seamless GSAP animations and interactive Three.js 3D visuals that turn
+        static interfaces into dynamic, immersive experiences. Whether it’s a
+        slick dashboard or an animated product showcase, I design with intent
+        and build for wow. With clean code, intuitive UI/UX, and an obsession
+        with innovation, I don’t just follow trends — I shape the future of the
+        web.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 overflow-hidden p-2">
